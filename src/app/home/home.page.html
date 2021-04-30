@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      My Login
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+<!-- Input with placeholder -->
+<ion-input [(ngModel)]="mylog.username" [ngModelOptions]="{standalone: true}" placeholder="Username"></ion-input>
+<!-- Input with placeholder -->
+<ion-input type="password" [(ngModel)]="mylog.password" [ngModelOptions]="{standalone: true}" placeholder="Password"></ion-input>
+
+<!-- Input with placeholder -->
+<ion-input [(ngModel)]="mylog.msg" [ngModelOptions]="{standalone: true}" placeholder="Your Message Appears Here" disabled></ion-input>
+
+
+<ion-button (click)="login()" color="primary" style="color: blue;">Login</ion-button>
+</ion-content>

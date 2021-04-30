@@ -1,0 +1,44 @@
+
+                 form{
+                     width: 600px;
+                     margin: 200px auto;
+                 }
+                 div{
+                     width: 100px;
+                     margin: center;
+
+                 }
+                 label{
+                     display: block;
+                     padding: 20px;
+                     font-size: 25px;
+                 }
+                 input{
+                     width: 200px;
+                     padding: 10px;
+                     border: 1px solid #797979;
+                     font-size: 20px;
+                     margin-left: 20px;
+                     border-radius: 10px;
+
+                 }
+                 button{
+                   margin: 30px;
+                   padding: 10px;
+                   width: 100px;
+                   border: none;
+                   outline: none;
+                   cursor: pointer;
+                   border-radius: 15px;
+                   font-size: 20px;
+                   font-weight: bold;
+                   color: rgb(20, 18, 18);
+                   background: linear-gradient(90deg, royalblue, lightgreen);
+                 }
+             span{
+                 display: block;
+                 margin-left: 20px;
+                 color: red;
+                 font-style: italic;
+             }
+         
